@@ -1,0 +1,88 @@
+/* GENERAL FORMATTING */
+
+.main-container {
+	margin-bottom: 8em;
+	height: 100%;
+	min-height: 100vh;
+}
+
+.user-list {
+	margin-top: 4em;
+	margin-bottom: 6em;
+}
+
+/* TAB NAV FORMATTING */
+
+.tab-link {
+	color: rgb(15, 15, 10);
+}
+
+.tab-link:hover {
+	color: rgb(26, 255, 102);
+}
+
+
+/* USER LIST FORMATTING */
+
+.selected-user {
+	border: 1px solid rgba(0, 230, 77, .6);
+}
+
+
+.active-user {
+	color: rgb(0, 230, 77);
+}
+
+.inactive-user {
+	color: rgb(255, 85, 0);
+}
+
+
+.edit-user {
+	color: rgba(51, 153, 102, .8);
+}
+.edit-user:hover {
+	font-weight: bold;
+	color: rgb(51, 153, 102);
+	cursor: pointer;
+}
+
+.delete-user {
+	color: rgba(255, 0, 0, .8);
+}
+
+.delete-user:hover {
+	font-weight: bold;
+	color: rgba(255, 0, 0, 1);
+	cursor: pointer;
+}
+
+/* USER EDIT FORM FORMATTING */
+
+.edit-user-form {
+	font-size: .8em;
+}
+
+.user-save-button {
+	width: 6em;
+	background-color: rgb(0, 230, 77);
+	border: 1px solid rgb(0, 230, 77);
+}
+
+.user-save-button:hover {
+	background-color: rgb(45, 134, 89);
+	border: 1px solid rgb(45, 134, 89);
+	cursor: pointer;
+}
+
+.user-disgard-button {
+	width: 6em;
+	background-color: rgb(255, 102, 102);
+	border: 1px solid rgb(255, 102, 102);
+}
+
+.user-disgard-button:hover {
+	background-color: rgb(255, 51, 51);
+	border: 1px solid rgb(255, 51, 51);
+	cursor: pointer;
+}
